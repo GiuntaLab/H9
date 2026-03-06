@@ -25,5 +25,35 @@ SRA accessions/Bioproject of reads used to construct the assembly:
 BioProject [PRJNA1431686](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1431686)  
 SRA BioProject [SRP680790](https://trace.ncbi.nlm.nih.gov/Traces/?study=SRP680790)  
 
+
+## Genome assembly, curation and quality metrics
+...  
+  
+  
+  
+## Pangenome PCA and ancestry analyses  
+...  
+  
+  
+## Gene annotation  
+...    
+  
+  
+## Centromere annotation  
+...  
+  
+  
+## Telomere annotation  
+...  
+  
+  
+## Characterization of H9 specific variants and structural rearrangements  
+...  
+  
+  
+## Chromatin accessibility analysis  
+...  
+
+  
 > [!WARNING]
 > This repository is under current editing.

@@ -19,6 +19,8 @@ GenBank accessions of assembly:
 [GCA_054883195.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054883195.1/) (haplotype 1)   
 [GCA_054883265.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054883265.1/) (haplotype 2)  
 
+# Sequencing data
+
 SRA accessions/Bioproject of reads used to construct the assembly:  
 BioProject [PRJNA1431686](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1431686)  
 SRA BioProject [SRP680790](https://trace.ncbi.nlm.nih.gov/Traces/?study=SRP680790)  

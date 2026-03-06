@@ -9,7 +9,7 @@ Our H9 assembly showcases comprehensive annotations, including genes, segmental 
 
 This repository contains documentation, scripts and processed data relative to the H9 diploid genome assembly, annotations and multi-omics analyses. </p>
 
-# Genome availability
+## Genome availability
 
 A UCSC Browser hub with data associated with this assembly is available at:  
 https://public.gi.ucsc.edu/hausslerlab/t2t-h9-hub/.
@@ -19,7 +19,7 @@ GenBank accessions of assembly:
 [GCA_054883195.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054883195.1/) (haplotype 1)   
 [GCA_054883265.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054883265.1/) (haplotype 2)  
 
-# Sequencing data
+## Sequencing data
 
 SRA accessions/Bioproject of reads used to construct the assembly:  
 BioProject [PRJNA1431686](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1431686)  

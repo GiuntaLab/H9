@@ -1,9 +1,9 @@
 ## Prerequisites:
 
-TrimGalore v0.6.10 and FastQC v0.11.9 for quality control and adapter trimming;  
-bowtie2 v2.5.4 for  and haploid alignments;   
-samtools v1.21 for data processing and filtering;  
-MACS3 v3.0.3 for peak calling;  
+**TrimGalore v0.6.10** and **FastQC v0.11.9** for quality control and adapter trimming;  
+**bowtie2 v2.5.4** for alignments against H9 reference genome (per haplotype);   
+**samtools v1.21** for data processing and filtering;  
+**MACS3 v3.0.3** for peak calling;  
 
 ## 1) Downloading the ATAC-Seq data
 

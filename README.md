@@ -31,8 +31,13 @@ SRA BioProject [SRP680790](https://trace.ncbi.nlm.nih.gov/Traces/?study=SRP68079
 The reference genome from the H9 hESC line was generated using a combination of Pacific Biosciences (PacBio) HiFi reads (coverage 75×), Oxford Nanopore Technology (ONT) R10 ligation reads (coverage 123×, including 47× >100 Kbps), and Arima high-throughput chromosome conformation capture (Hi-C) long-range information(coverage 87×). Two genome assembly strategies were attempted using [Verkko](https://github.com/marbl/verkko) v2.2.1.:  
 **The first assembly (asm1)** uses HiFi reads for graph construction with ONT reads for graph resolution.    
 **The second assembly (asm2)** incorporates HiFiasm-corrected ONT reads into the graph construction.
-  
-  
+
+
+The quality of the H9 genome was assessed using a variety of tools:  
+
+ - **[NucFreq](https://github.com/mrvollger/NucFreq)** and **[NucFlag](https://github.com/logsdon-lab/NucFlag)**  
+ 
+ Primary alignments of HiFi reads to H9 haploid genomes were used to generate genome-wide coverage plots with NucFreq. In addition, primary alignments of HiFi and ONT reads to the H9 diploid genome were used to generate a genome-wide coverage plot with NucFlag. Coverage plots display the frequencies of the most and second most common bases at each genomic position, and they showed an overall homogeneous distribution across chromosomes in both haplotypes.
   
 ## Pangenome PCA and ancestry analyses  
 ...  

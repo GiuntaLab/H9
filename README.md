@@ -26,12 +26,14 @@ BioProject [PRJNA1431686](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1431686)
 SRA BioProject [SRP680790](https://trace.ncbi.nlm.nih.gov/Traces/?study=SRP680790)  
 
 
-## Genome assembly, curation and quality metrics
+## Genome assembly and curation  
 
 The reference genome from the H9 hESC line was generated using a combination of Pacific Biosciences (PacBio) HiFi reads (coverage 75×), Oxford Nanopore Technology (ONT) R10 ligation reads (coverage 123×, including 47× >100 Kbps), and Arima high-throughput chromosome conformation capture (Hi-C) long-range information(coverage 87×). Two genome assembly strategies were attempted using [Verkko](https://github.com/marbl/verkko) v2.2.1.:  
 **The first assembly (asm1)** uses HiFi reads for graph construction with ONT reads for graph resolution.    
-**The second assembly (asm2)** incorporates HiFiasm-corrected ONT reads into the graph construction.
+**The second assembly (asm2)** incorporates HiFiasm-corrected ONT reads into the graph construction.  
 
+
+## Genome quality  
 
 The quality of the H9 genome was assessed using a variety of tools:  
 

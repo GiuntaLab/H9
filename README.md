@@ -51,7 +51,7 @@ Based on the alignment of HiFi reads to the H9 assembly, HMM-Flagger classified 
 
 - **[Compleasm](https://github.com/huangnengCSU/compleasm)**  
   
-Compleasm identified 99.11% complete genes in both haplotypes, with a small difference in duplicated genes (0.7% in haplotype 1; 0.69% in haplotype 2). The missing genes are 0.04% and 0.03%, while the fragmented ones are 0.15% and 0.16% for haplotype 1 and haplotype 2, respectively.  
+Gene completeness was determined by Compleasm using mammalia_odb12 as the gene dataset. Compleasm identified 99.11% complete genes in both haplotypes, with a small difference in duplicated genes (0.7% in haplotype 1; 0.69% in haplotype 2). The missing genes are 0.04% and 0.03%, while the fragmented ones are 0.15% and 0.16% for haplotype 1 and haplotype 2, respectively.  
 
    
 

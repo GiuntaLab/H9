@@ -11,6 +11,8 @@ work_directory="/path/to/work_directory"
 macs3_call_peak=$work_directory"/04_call_peak_macs3"
 
 
+mkdir $macs3_call_peak
+
 
 # Create BigWig files from the bedgraph coverage files relative to the narrow peaks called on H9 haplotype 1 for all samples 
 

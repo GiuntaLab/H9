@@ -52,7 +52,10 @@ SRA BioProject [SRP680790](https://trace.ncbi.nlm.nih.gov/Traces/?study=SRP68079
   
   
 ## Chromatin accessibility analysis  
-...  
+Publicly available ATAC-Seq raw data, generated from H9 cells undergoing early neural differentiation (Bioproject: PRJNA1235757) were downloaded to perform chromatin accessibility analysis across H9 haplotypes. Specifically, we downloaded paired-end ATAC-Seq data from 10 samples, with the following accession numbers: SRR32687946, SRR32687947, SRR32687948, SRR32687949, SRR32687950, SRR32687951, SRR32687952, SRR32687953, SRR32687954, and SRR32687955.  
+Scripts are available in the "Chromatin accessibility analysis" within this repository.  
+
+  
 
   
 > [!WARNING]

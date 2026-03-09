@@ -37,7 +37,7 @@ The reference genome from the H9 hESC line was generated using a combination of 
 
 The quality of the H9 genome was assessed using a variety of tools:  
 
-- **[gfastats](https://github.com/vgl-hub/gfastats)  
+- **[gfastats](https://github.com/vgl-hub/gfastats)**  
 Assembly basic statistics, computed using gfastats, showed that H9 is essentially gapless (contig N50=155.2 Mbps for hap1; 153.7 Mbps for hap2).   
   
  - **[NucFreq](https://github.com/mrvollger/NucFreq)** and **[NucFlag](https://github.com/logsdon-lab/NucFlag)**  

@@ -47,7 +47,13 @@ By comparing the k-mers in the HiFi reads to the k-mers found in the assembly, w
   
 - **[HMM-Flagger](https://github.com/mobinasri/flagger)**
   
-Based on the alignment of HiFi reads to the H9 assembly, HMM-Flagger classified 99.29 % of the diploid assembly (6.06 Gbps) as a reliable haploid sequence. Regions flagged as assembly errors were rare, totaling 5.45 Mbps (0.09 %), and collapsed regions totaled 4.10 Mbps (0.07 %). The genomic coordinates of these low-confidence regions were used to define a low-confidence annotation track in the final assembly.
+Based on the alignment of HiFi reads to the H9 assembly, HMM-Flagger classified 99.29% of the diploid assembly (6.06 Gbps) as a reliable haploid sequence. Regions flagged as assembly errors were rare, totaling 5.45 Mbps (0.09%), and collapsed regions totaled 4.10 Mbps (0.07%). The genomic coordinates of these low-confidence regions were used to define a low-confidence annotation track in the final assembly.  
+
+- **[Compleasm](https://github.com/huangnengCSU/compleasm)**  
+  
+Compleasm identified 99.11% complete genes in both haplotypes, with a small difference in duplicated genes (0.7% in haplotype 1; 0.69% in haplotype 2). The missing genes are 0.04% and 0.03%, while the fragmented ones are 0.15% and 0.16% for haplotype 1 and haplotype 2, respectively.  
+
+   
 
   
 ## Pangenome PCA and ancestry analyses  

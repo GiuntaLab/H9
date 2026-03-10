@@ -68,7 +68,7 @@ Ancestry inference was performed using two tools:
 
 - **[GenoTools](https://github.com/dvitale199/GenoTools)**     
 
-GenoTools assigned a population label to H9 genome according to a pre-computed set of genetic distances integrating samples from the 1000 Genomes Project (1KG), the Human Genome Diversity Panel (HGDP), and an Ashkenazi Jewish reference panel (AJ). n line with the previous
+GenoTools assigned a population label to H9 genome according to a pre-computed set of genetic distances integrating samples from the 1000 Genomes Project (1KG), the Human Genome Diversity Panel (HGDP), and an Ashkenazi Jewish reference panel (AJ). In line with the previous
 SNP chips analysis, H9 clusters in proximity to European populations, and it was also close to Ashkenazi Jewish (AJ) samples.  
   
 - **[PCLAI](https://github.com/AI-sandbox/hprc-pclai)**  

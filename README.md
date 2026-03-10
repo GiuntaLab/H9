@@ -119,12 +119,7 @@ Sequence and structural variants were assessed between H9 haplotypes, and betwee
   
 - **H9 hap2 vs. CHM13:** H9 haplotype 2 is 99.88% syntenic with the CHM13 reference. There are 3089128 SNPs, 62 inversions, and 1697 translocations between the two genomes.
 
-
-
-
   
-## Characterization of H9 specific variants and structural rearrangements  
-...  
   
   
 ## Chromatin accessibility analysis  

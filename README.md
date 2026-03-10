@@ -77,7 +77,12 @@ PCLAI computed local ancestry inference by assigning continuous PCA coordinates 
   
   
 ## Gene annotation  
-...    
+
+Gene annotation, performed using the **[Comparative Annotation Toolkit](https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit)**, identified:
+   * 20098 protein-coding genes, 15445 pseudogenes, and 44273 non-coding RNAs of which 35354 are lncRNAs in haplotype 1.  
+   * 20148 protein-coding genes, 15480 pseudogenes, and 44356 non-coding RNAs of which 35382 are lncRNAs in haplotype 2.  
+   * There are 7 haplotype 1-only and 8 haplotype 2-only genes.   
+   * Excluding genes absent from one haplotype, the H9 genome harbors 20 and 31 genes with higher copy numbers on haplotype 1 and haplotype 2, respectively.      
   
   
 ## Centromere annotation  

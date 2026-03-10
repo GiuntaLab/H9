@@ -128,7 +128,7 @@ Segmental duplications (SD) in the H9 assembly were annotated using the **[SEDEF
 
 The cross-reference of the H9 and CHM13 genomes, against 83 loci from a systematic review of recurrent CNVs associated with neurodevelopmental disorders, identified four structural variants involving interhaplotype inversions among these loci.  
 
-CNV location and structure between the two H9 haplotypes, CHM13, and GRCh38 were visualized with the **[SVByEye](https://github.com/daewoooo/SVbyEye) R package.    
+CNV location and structure between the two H9 haplotypes, CHM13, and GRCh38 were visualized with the **[SVByEye](https://github.com/daewoooo/SVbyEye)** R package.    
   
   
 ## Chromatin accessibility analysis  

@@ -11,17 +11,17 @@ This repository contains documentation, scripts and processed data relative to t
 
 ## Genome availability
 
-A UCSC Browser hub with data associated with this assembly is available at:  
+A UCSC Browser hub with data associated with this H9 assembly is available at:  
 https://public.gi.ucsc.edu/hausslerlab/t2t-h9-hub/.
 
 
-GenBank accessions of assembly:   
+Here are the GenBank accessions of the H9 assembly:   
 [GCA_054883195.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054883195.1/) (haplotype 1)   
 [GCA_054883265.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054883265.1/) (haplotype 2)  
 
 ## Sequencing data
 
-SRA accessions/Bioproject of reads used to construct the assembly:  
+The SRA accessions/Bioproject of reads used to construct the H9 assembly:  
 BioProject [PRJNA1431686](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1431686)  
 SRA BioProject [SRP680790](https://trace.ncbi.nlm.nih.gov/Traces/?study=SRP680790)  
 

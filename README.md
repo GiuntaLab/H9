@@ -112,12 +112,12 @@ Telomere annotation was performed using the **[Teloscope](https://github.com/vgl
 ## Genome-wide sequence and structural variation  
   
 Sequence and structural variants were assessed between H9 haplotypes, and between each of the H9 hplotypes and CHM13. To do so, we carried out  genome-to-genome alignments using **[minimap2](https://github.com/lh3/minimap2)**. Then, **[SyRI](https://github.com/schneebergerlab/syri)** was used to identify synthenic regions, SNPs and structural rearrangements. Subsequently, the SyRI output was post-processed to compute chromosome-wide SNP and HDR (Highly Divergent Regions) densities in nonoverlapping 10 Kbps windows.   
+  
+- **H9 hap1 vs. H9 hap2:** the average SNPs density across chromosome arms between H9 haplotypes was 0.11% (one heterozygous marker every 1000 bps). However, it increased to 0.53% within centromeric regions (active alpha satellite HORs). The H9 haplotypes show 3010848 SNVs, 69 inversions, and 1141 translocations. The highly divergent regions (HDRs) are predominantly associated with centromeres.  
 
-  * H9 hap1 vs. H9 hap2: the average SNPs density across chromosome arms between H9 haplotypes was 0.11% (one heterozygous marker every 1000 bps). However, it increased to 0.53% within centromeric regions (active alpha satellite HORs). The H9 haplotypes show 3010848 SNVs, 69 inversions, and 1141 translocations. The highly divergent regions (HDRs) are predominantly associated with centromeres.  
-
-  * H9 hap1 vs. CHM13: H9 haplotype 1 is 99.90% syntenic with the CHM13 reference. There are 3124343 SNPs, 66 inversions, and 1847 translocations between the two genomes.  
-
- * H9 hap2 vs. CHM13: H9 haplotype 2 is 99.88% syntenic with the CHM13 reference. There are 3089128 SNPs, 62 inversions, and 1697 translocations between the two genomes.
+- **H9 hap1 vs. CHM13:** H9 haplotype 1 is 99.90% syntenic with the CHM13 reference. There are 3124343 SNPs, 66 inversions, and 1847 translocations between the two genomes.
+  
+- **H9 hap2 vs. CHM13:** H9 haplotype 2 is 99.88% syntenic with the CHM13 reference. There are 3089128 SNPs, 62 inversions, and 1697 translocations between the two genomes.
 
 
 

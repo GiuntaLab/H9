@@ -130,6 +130,15 @@ The cross-reference of the H9 and CHM13 genomes, against 83 loci from a systemat
 
 CNV location and structure between the two H9 haplotypes, CHM13, and GRCh38 were visualized with the **[SVByEye](https://github.com/daewoooo/SVbyEye)** R package.    
   
+
+
+## ONT methylation analysis
+
+ONT reads were aligned to the H9 diploid genome assembly using [minimap2](https://github.com/lh3/minimap2) --preset=map-ont command.  
+
+BEDMethyl files were produced using ONT **[Modkit](https://github.com/nanoporetech/modkit)** --pileup command with default parameters.   
+
+To enable visualization in the UCSC Genome Browser, BEDMethyl was converted to BigWig using the **bedGraphToBigWig** UCSC utility.  
   
 ## Chromatin accessibility analysis  
 

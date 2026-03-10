@@ -87,7 +87,7 @@ Gene annotation, performed using the **[Comparative Annotation Toolkit](https://
   
 ## Centromere annotation  
 
-Centromere identification and annotation was performed using three tools:  
+Centromere identification and annotation was performed using multiple orthogonal methods,each providing a different layer of information:  
   
 - **[dna-nn](https://github.com/lh3/dna-nn)**      
 

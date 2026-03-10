@@ -121,7 +121,14 @@ Sequence and structural variants were assessed between H9 haplotypes, and betwee
 
 SNP and HDR density plots were generated using the **[karyoploteR](https://github.com/bernatgel/karyoploteR)** R package.
 
-  
+
+## Identification of segmental duplications in H9
+
+Segmental duplications (SD) in the H9 assembly were annotated using the **[SEDEF](https://github.com/vpc-ccg/sedef)** tool. The two H9 haplotypes comprised 5.6% and 5.7% SD, respectively. This is consistent with the 5.6% SD coverage in the CHM13 assembly.  
+
+The cross-reference of the H9 and CHM13 genomes, against 83 loci from a systematic review of recurrent CNVs associated with neurodevelopmental disorders, identified four structural variants involving interhaplotype inversions among these loci.  
+
+CNV location and structure between the two H9 haplotypes, CHM13, and GRCh38 were visualized with the **[SVByEye](https://github.com/daewoooo/SVbyEye) R package.    
   
   
 ## Chromatin accessibility analysis  

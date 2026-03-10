@@ -61,7 +61,19 @@ Gene completeness was determined by Compleasm using mammalia_odb12 as the gene d
 
   
 ## Pangenome PCA and ancestry analyses  
-...  
+
+The pangenome PCA was computed based on a PGGB graph built from the initial year one HPRC samples plus the two human references (GRCh38 and CHM13), with the inclusion of the H9 genome. As a result, the H9 genome groups with the HPRC samples and CHM13, indicating better alignment in graph space across these high-quality diploid assemblies.  
+
+Ancestry inference was performed using two tools:  
+
+- **[GenoTools](https://github.com/dvitale199/GenoTools)**     
+
+GenoTools assigned a population label to H9 genome according to a pre-computed set of genetic distances integrating samples from the 1000 Genomes Project (1KG), the Human Genome Diversity Panel (HGDP), and an Ashkenazi Jewish reference panel (AJ). n line with the previous
+SNP chips analysis, H9 clusters in proximity to European populations, and it was also close to Ashkenazi Jewish (AJ) samples.  
+  
+- **[PCLAI](https://github.com/AI-sandbox/hprc-pclai)**  
+  
+PCLAI computed local ancestry inference by assigning continuous PCA coordinates along phased H9 haplotypes. The employed model was trained on an autosomal subset of 26062361 biallelic SNPs from a 1KG and HGDP merge with 2356 training samples. PCLAI indicated that H9 has predominantly European-like ancestry, albeit with substantial West Asian-like chromosomal segments and little evidence for African-like ancestry.  
   
   
 ## Gene annotation  

@@ -134,7 +134,7 @@ CNV location and structure between the two H9 haplotypes, CHM13, and GRCh38 were
 
 ## ONT methylation analysis
 
-ONT reads were aligned to the H9 diploid genome assembly using [minimap2](https://github.com/lh3/minimap2) --preset=map-ont command.  
+ONT reads were aligned to the H9 diploid genome assembly using **[minimap2](https://github.com/lh3/minimap2)** --preset=map-ont command.  
 
 BEDMethyl files were produced using ONT **[Modkit](https://github.com/nanoporetech/modkit)** --pileup command with default parameters.   
 

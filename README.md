@@ -28,7 +28,7 @@ SRA BioProject [SRP680790](https://trace.ncbi.nlm.nih.gov/Traces/?study=SRP68079
 
 ## Genome assembly and curation  
 
-The reference genome from the H9 hESC line was generated using a combination of Pacific Biosciences (PacBio) HiFi reads (coverage 75×), Oxford Nanopore Technology (ONT) R10 ligation reads (coverage 123×, including 47× >100 Kbps), and Arima high-throughput chromosome conformation capture (Hi-C) long-range information(coverage 87×). Two genome assembly strategies were attempted using [Verkko](https://github.com/marbl/verkko) v2.2.1.:  
+The reference genome from the H9 hESC line was generated using a combination of Pacific Biosciences (PacBio) HiFi reads (coverage 75×), Oxford Nanopore Technology (ONT) R10 ligation reads (coverage 123×, including 47× >100 Kbps), and Arima high-throughput chromosome conformation capture (Hi-C) long-range information (coverage 87×). Two genome assembly strategies were attempted using **[Verkko](https://github.com/marbl/verkko)**:  
 **The first assembly (asm1)** uses HiFi reads for graph construction with ONT reads for graph resolution.    
 **The second assembly (asm2)** incorporates HiFiasm-corrected ONT reads into the graph construction.  
 
@@ -106,7 +106,21 @@ The GCP pipeline comprises utilities for centromere architecture characterisatio
 ## Telomere annotation  
 
 Telomere annotation was performed using the **[Teloscope](https://github.com/vgl-hub/teloscope)** tool, scanning for canonical (CCCTAA/TTAGGG) and noncanonical telomeric repeats. To validate the annotation output, HiFi and ONT reads were re-aligned against the H9 haplotypes, followed by coverage assessment for the 25 Kbps most distal region of each chromosome end using **[NucFlag](https://github.com/logsdon-lab/NucFlag)**. 
+
+
+## Genome-wide sequence and structural variation  
   
+Sequence and structural variants were assessed between H9 haplotypes, and between each of the H9 hplotypes and CHM13. To do so, we carried out  genome-to-genome alignments using **[minimap2](https://github.com/lh3/minimap2)**. Then, **[SyRI](https://github.com/schneebergerlab/syri)** was used to identify synthenic regions, SNVs and structural rearrangements. Subsequently, the SyRI output was post-processed to compute chromosome-wide SNP and HDR (Highly Divergent Regions) densities in nonoverlapping 10 Kbps windows.   
+
+  * H9 hap1 vs. H9 hap2: the average SNPs density across chromosome arms between H9 haplotypes was 0.11% (one heterozygous marker every 1000 bps). However, it increased to 0.53% within centromeric regions (active alpha satellite HORs). The H9 haplotypes show 3010848 SNVs, 69 inversions, and 1141 translocations. The highly divergent regions (HDRs) are predominantly associated with centromeres.  
+
+  * H9 hap1 vs. CHM13: H9 haplotype 1 is 99.90% syntenic with the CHM13 reference. There are 3124343 SNPs, 66 inversions, and 1847 translocations between the two genomes.  
+
+ * H9 hap2 vs. CHM13: H9 haplotype 2 is 99.88% syntenic with the CHM13 reference. There are 3089128 SNPs, 62 inversions, and 1697 translocations between the two genomes.
+
+
+
+
   
 ## Characterization of H9 specific variants and structural rearrangements  
 ...  

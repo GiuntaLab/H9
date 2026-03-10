@@ -86,7 +86,21 @@ Gene annotation, performed using the **[Comparative Annotation Toolkit](https://
   
   
 ## Centromere annotation  
-...  
+
+Centromere identification and annotation was performed using three tools:  
+  
+- **[dna-nn](https://github.com/lh3/dna-nn)**      
+
+dna-nn was used to identify alpha saltellites, located primarily at the centromeres.    
+
+- **[Hum-AS-HMMER for AnVIL](https://github.com/fedorrik/HumAS-HMMER_for_AnVIL)**      
+
+Hum-AS-HMMER for AnVIL took as input the bed file of alpha satellites, and outputed complete higher order repeats (HORs) annotation.      
+
+- **[Genomic Centromere Profiling (GCP) pipeline](https://github.com/GiuntaLab/GCP-Centeny)**      
+
+The GCP pipeline comprises utilities for centromere architecture characterisation based on the the pattern of numerical values derived from the nucleotide distance between CENP-B box motifs within centromeres, and their organization within the alpha-satellite monomers, defining centeny maps.  
+
   
   
 ## Telomere annotation  

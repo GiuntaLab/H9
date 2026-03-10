@@ -132,8 +132,30 @@ CNV location and structure between the two H9 haplotypes, CHM13, and GRCh38 were
   
   
 ## Chromatin accessibility analysis  
-Publicly available ATAC-Seq raw data, generated from H9 cells undergoing early neural differentiation (Bioproject: PRJNA1235757) were downloaded to perform chromatin accessibility analysis across H9 haplotypes. Specifically, we downloaded paired-end ATAC-Seq data from 10 samples, with the following accession numbers: SRR32687946, SRR32687947, SRR32687948, SRR32687949, SRR32687950, SRR32687951, SRR32687952, SRR32687953, SRR32687954, and SRR32687955.  
-Scripts are available in the "Chromatin accessibility analysis" folder within this repository.  
+
+ Publicly available ATAC-Seq raw data, generated from H9 cells undergoing early neural differentiation ([GSE291907](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE291907)) were downloaded to perform chromatin accessibility analysis across H9 haplotypes.
+
+Specifically, we downloaded paired-end ATAC-Seq data from 10 samples, with the following accession numbers: SRR32687946, SRR32687947, SRR32687948, SRR32687949, SRR32687950, SRR32687951, SRR32687952, SRR32687953, SRR32687954, and SRR32687955.
+
+The ATAC-Seq data analysis was performed as follows:
+
+1. Quality control and adapter trimming were performed with **[TrimGalore](https://github.com/FelixKrueger/TrimGalore)**. 
+
+2. Alignment of the trimmed reads against the separate H9 haplotypes using **[bowtie2](https://github.com/BenLangmead/bowtie2)**.   
+
+3. Narrow peak calling from mapped paired-end reads with quality score > 20, using **[MACS3](https://github.com/macs3-project/MACS)**.
+
+4. Liftover of the coordinates of narrow peaks called in haplotype 1 to haplotype 2. 
+
+5. Intersection of the liftedover peaks with those of the original haplotype 2 peaks using the **[bedtools intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html)** module, generating a set of matched peaks across H9 haplotypes. 
+
+6. Quantification of the aligned reads to each H9 haplotype with the **[bedtools multicov](https://bedtools.readthedocs.io/en/latest/content/tools/multicov.html)** module, restricting the analysis to the alignments within the matched peaks. 
+
+7. The resulting counts were combined into a single matrix, which was used for the differential chromatin accessibility analysis with **[DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)**. 
+
+
+
+Scripts and further workflow information are available in the "Chromatin accessibility analysis" folder within this repository.
 
   
 

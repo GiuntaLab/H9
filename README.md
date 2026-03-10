@@ -105,7 +105,7 @@ The GCP pipeline comprises utilities for centromere architecture characterisatio
   
 ## Telomere annotation  
 
-Telomere annotation was performed using the **[Teloscope](https://github.com/vgl-hub/teloscope)** tool, scanning for canonical (CCCTAA/TTAGGG) and noncanonical telomeric repeats. To validate the annotation output, HiFi and ONT reads were re-aligned against the H9 haplotypes, followed by coverage assessment for the 25 Kbps most distal region of each chromosome end using **[NucFlag]((https://github.com/logsdon-lab/NucFlag)**. 
+Telomere annotation was performed using the **[Teloscope](https://github.com/vgl-hub/teloscope)** tool, scanning for canonical (CCCTAA/TTAGGG) and noncanonical telomeric repeats. To validate the annotation output, HiFi and ONT reads were re-aligned against the H9 haplotypes, followed by coverage assessment for the 25 Kbps most distal region of each chromosome end using **[NucFlag](https://github.com/logsdon-lab/NucFlag)**. 
   
   
 ## Characterization of H9 specific variants and structural rearrangements  

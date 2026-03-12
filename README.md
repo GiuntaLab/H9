@@ -1,5 +1,4 @@
-# H9
-**<p align="center"> The reference genome for the human embryonic stem cell H9 </p>**
+# <p align="center">H9 — A reference genome for a human embryonic stem cell</p>
 
 <p align="justify"> We have assembled the first fully phased, telomere-to-telomere (T2T) diploid reference genome for H9 (WAe009-A), one of the most widely used and ethically approved human embryonic stem cell (hESC) lines in biomedical research, registered in both the European and NIH Human Pluripotent Stem Cell Registries.
 

@@ -4,7 +4,9 @@
 </div>
 
 ## 1) pangenome PCA
+The pangenome PCA has been computed form pangenomes-by-chromosome (including only the 22 autosomes) constructed independently and then combined into a single data structure with `odgi squeeze` as indicated in the main work _PREPRINT TO BE ADDED_; additionally, `odgi similarity` was used to compute a sparse matrix of sequence alignment in graph space. More informations can be found at the [documentation page](https://odgi.readthedocs.io/en/latest/rst/commands/odgi_similarity.html) for the tool.
 
+Aside from this, the script `select_fasta_files.sh` uses a 
 
 ## 2) GenoTools ancestry inference
 

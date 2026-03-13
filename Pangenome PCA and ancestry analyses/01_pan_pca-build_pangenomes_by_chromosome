@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###This script was run as an array job,###
+###which requires PAF alignments of all###
+###individuals part of the analysis ag-###
+###ainst a reference — CHM13 was chosen###
+
+
 HAP=( "hap0" "hap1" "hap2")
 
 SEX="$(echo ${d} | sed 's#/<path_to_your_workdir>/[A-Z,0-9,a-z]\+_##')"

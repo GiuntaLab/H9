@@ -1,5 +1,5 @@
 # <p align="center">Requirements to run each one of the QV analyses<p>
-<p align="center">Below, the specific to the varions QV metrics run for this projects not only associated to the H9 genomes but also to others T2T assemblies we compared with as well as the GRCh38 and CHM13 references when applicable.<p>
+<p align="center">Below, the specific to the varions QV metrics run for this projects not only associated to the H9 genomes but also to others T2T assemblies we compared with as well as the GRCh38 and CHM13 references when applicable.</p>
 
 ## 1) merqury.sh
 Provided the folders' structure has been opportunely arranged for an array run, before using the `merqury.sh` a [meryl](https://github.com/marbl/meryl) _k_-mers database for the sequencing dataset of each samples need to be generated as follow:

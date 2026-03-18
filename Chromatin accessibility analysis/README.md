@@ -30,4 +30,8 @@ H9 haplotype 1 fasta genome was mapped to H9 haplotype 2 using **[minimap2](http
 
 The haplotype 2 lifted over peaks were intersected with those of the original haplotype 2 peaks coordinates using the **[bedtools intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html)** module, generating a set of matched peaks across H9 haplotypes. Aligned reads to each H9 haplotype were then quantified with the **[bedtools multicov](https://bedtools.readthedocs.io/en/latest/content/tools/multicov.html)** module, restricting the analysis to the alignments within the matched peaks.  
 
+## 7) Differential chromatin accessibility analysis
+
+The resulting counts of the matched peaks for all samples were combined into a single matrix, which was used for the differential chromatin accessibility analysis between H9 haplotypes with **[DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)**. Chromatin regions, with a p-adj value < 0.05 and |log2FC| > 1, were considered differentially accessible between H9 haplotypes.  
+
   

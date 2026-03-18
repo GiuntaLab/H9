@@ -1,9 +1,14 @@
 ## Prerequisites:
 
-**TrimGalore v0.6.10** and **FastQC v0.11.9** for quality control and adapter trimming;  
-**bowtie2 v2.5.4** for alignments against H9 reference genome (per haplotype);   
+**fastq-dump**, which is part of the NCBI's Sequence Read Archive (SRA) toolkit, for downloading fastq files from NCBI's SRA.  
+**TrimGalore v0.6.10 and FastQC v0.11.9** for fastq files quality control and adapter trimming;  
+**bowtie2 v2.5.4** for alignments of the fastq files against the reference genomes of H9 haplotypes;   
 **samtools v1.21** for data processing and filtering;  
-**MACS3 v3.0.3** for peak calling;  
+**MACS3 v3.0.3** for peak calling from ATAC-Seq alignments;  
+**minimpa2 v2.30** for alignment between the fasta files of H9 haplotypes;  
+**paftools.js** java script to liftover peak coordinates between H9 haplotypes;  
+**bedtools v2.27.1** to identify and quantify matched peaks across H9 haplotypes;  
+**DESeq2 v1.50.0** for differential chromatin accesibility analysis.  
 
 ## 1) Downloading the ATAC-Seq data
 

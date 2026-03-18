@@ -20,4 +20,9 @@ Prior the alignement, indexes for each of the haplotype-specific H9 fasta files 
 
 ## 4) Peak calling
 
-We used MACS3 v3.0.3 to call statistically significant narrow peaks from mapped paired-end reads, with quality score > 20.
+We used MACS3 v3.0.3 to call statistically significant narrow peaks from mapped paired-end reads, with quality score > 20.  
+
+## 5) Liftover of the coordinates of narrow peaks called in haplotype 1 to haplotype 2
+
+H9 haplotype 1 fasta genome was mapped to H9 haplotype 2 using **[minimap2](https://github.com/lh3/minimap2/tree/master)**, generating a PAF (Pairwise mApping Format) file describing the approximate mapping positions between two H9 haplotypes. This latter was used to liftover the coordinates of narrow peaks called in haplotype 1 to haplotype 2, with the **[paftools.js](https://github.com/lh3/minimap2/blob/master/misc/paftools.js)** java script, which is intergrated in minimap2.  
+

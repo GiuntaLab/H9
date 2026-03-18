@@ -26,3 +26,8 @@ We used MACS3 v3.0.3 to call statistically significant narrow peaks from mapped 
 
 H9 haplotype 1 fasta genome was mapped to H9 haplotype 2 using **[minimap2](https://github.com/lh3/minimap2/tree/master)**, generating a PAF (Pairwise mApping Format) file describing the approximate mapping positions between two H9 haplotypes. This latter was used to liftover the coordinates of narrow peaks called in haplotype 1 to haplotype 2, with the **[paftools.js](https://github.com/lh3/minimap2/blob/master/misc/paftools.js)** java script, which is intergrated in minimap2.  
 
+## 6) Extraction and quantification of the matched peaks across H9 haplotypes  
+
+The haplotype 2 lifted over peaks were intersected with those of the original haplotype 2 peaks coordinates using the **[bedtools intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html)** module, generating a set of matched peaks across H9 haplotypes. Aligned reads to each H9 haplotype were then quantified with the **[bedtools multicov](https://bedtools.readthedocs.io/en/latest/content/tools/multicov.html)** module, restricting the analysis to the alignments within the matched peaks.  
+
+  

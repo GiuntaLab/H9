@@ -14,3 +14,6 @@ where `${ID}.meryl` has to be placed in the **merqury/** directory where the exe
 [`Compleasm`](https://github.com/huangnengCSU/compleasm) has been run with the specifics as reported in the main H9 page with local gene datasets since over limited bandwidth and/or cluster nodes witout access to the network this option is the more efficient. If necessary, all gene data collections can be downloaded [here](https://busco-data.ezlab.org/v5/data/lineages/).
 
 ## 4) flagger.sh
+
+## 5) nucflag.sh
+Run nucflag to assess the assembly using coverage information from HiFi and ONT reads.
